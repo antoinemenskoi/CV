@@ -8,9 +8,66 @@
     <title>CV Antoine Menskoï</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/a3701a8dd8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 </head>
 
     <body>
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="" class="nav__logo">Antoine Menskoï</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link activate-link">
+                                <i class="fas fa-home"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#langues" class="nav__link">
+                                <i class="fas fa-globe-americas"></i>Langues
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#competences" class="nav__link">
+                                <i class="fas fa-scroll"></i>Compétences
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="far fa-folder-open"></i>Projets Web
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#formations" class="nav__link">
+                                <i class="fas fa-book"></i>Formations
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="fas fa-briefcase"></i>Expérience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#loisirs" class="nav__link">
+                                <i class="fas fa-gamepad"></i>Loisirs
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-grip-horizontal"></i>
+                </div>
+            </nav>
+        </header>
+
         <main class="container">
 
             <!-- CV LEFT SIDE -->
@@ -18,14 +75,16 @@
 
                 <!-- HOME -->
                 <section class="home">
-                    <img src="img/devantoine-01.jpg" alt="" class="picture">
-                    <h1 class="name">Antoine MENSKOÏ</h1>
-                    <h2 class="dev">Développeur Web</h2>
-                    <h2 class="rqth">RQTH</h2>
+                    <div class="home__data">
+                        <img src="img/devantoine-01.jpg" alt="" class="home__img">
+                        <h1 class="name">Antoine MENSKOÏ</h1>
+                        <h3 class="dev">Développeur Web</h3>
+                        <h3 class="rqth">RQTH</h3>
+                    </div>
                 </section>
 
                 <!-- CONTACT -->
-                <section class="contact">
+                <section class="contact grid">
                     <a href="" class="social__link">
                         <i class="fas fa-phone-square-alt"></i>06-49-99-75-37
                     </a>
@@ -37,7 +96,7 @@
                     </a>
                 </section>
 
-                <!-- COMPETENCES & Langues -->
+                <!-- COMPETENCES & LANGUES -->
                 <section class="langue">
                     <h2 class="langues">Langues</h2>
                     <p>Anglais C1, IELTS 7,5/9</p>
@@ -98,28 +157,35 @@
                         <p>Languages Frontend: HTML, CSS & JavaScript</p>
                         <p>Logiciel Design : Figma</p>
                     </div>
-
                 </section>
+
+                <!-- EXPERIENCE -->
                 <section class="experience">
+                    <div class="">
+                        <h2 class="title__sub">QUALIMETRIE</h2>
+                        <h3 class="url">Assistant Gestion Projet Web | Avril 2019 - Décembre 2019</h3>
+                        <p>Capacités développées : Gestion de Projet Web, Méthode Agile, Office, Gestion parc informatique...</p>
+                    </div>
 
+                    <div class="">
+                        <h2 class="title__sub">UNIVERSITÉ DE LILLE</h2>
+                        <h3 class="url">Employé Polyvalent | Avril 2019</h3>
+                        <p>Capacités développées : Vente, Autonomie, Organisation, Rapidité, Travail d'équipe, Travaillé sous préssion>>></p>
+                    </div>
                 </section>
-                <section class="loisirs">
 
+                <!-- LOISIRS -->
+                <section class="loisirs">
+                    <h2 class="loisir">Loisirs</h2>
+                    <i class="fab fa-d-and-d"></i>Dungeons & Dragons
+                    <i class="fas fa-book"></i>Écriture, Lecture
+                    <i class="fas fa-atom"></i>Science
+                    <i class="fab fa-steam"></i>Jeux Vidéos
+                    <i class="fas fa-football-ball"></i> NFL & UFC
                 </section>
 
             </div>
-
         </main>
-
-
-
-
-
-
-
-
-
-
         <script src="js/main.js"></script>
     </body>
 
