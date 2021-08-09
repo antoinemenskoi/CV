@@ -45,7 +45,7 @@ html {
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
-  margin: 0;
+  margin: 0 0 var(--header-height) 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
@@ -73,6 +73,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--clr-dark);
 }
 
 img {
@@ -184,5 +185,123 @@ img {
 }
 
 .activate-link {
+  color: var(--clr-accent);
+}
+
+/* HOME */
+.home {
+  position: relative;
+}
+
+.home__container {
+  gap: 3rem;
+}
+
+.home__data {
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.home__img {
+  width: 120px;
+  height: auto;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home__title {
+  font-size: var(--fs-h2);
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+}
+
+.home__profession {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--fw-bold);
+}
+
+.home__rqth {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--mb-1);
+}
+
+.home__button {
+  display: inline-block;
+  border: 2px solid var(--clr-dark);
+  color: var(--clr-accent);
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  transition: 0.3s;
+  font-weight: var(--fw-bold);
+  margin-top: var(--mb-3);
+}
+
+.home__button:hover {
+  background-color: var(--clr-dark);
+  color: var(--clr-accent);
+}
+
+/* CONTACT */
+.contact {
+  position: relative;
+}
+.contact__container {
+  gap: 1.2rem;
+}
+.contact__icon {
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+}
+
+.contact__link:hover {
+  color: var(--clr-accent);
+}
+
+.fa-phone-square-alt {
+  color: #037f04;
+}
+
+.fa-envelope-square {
+  color: #0072c6;
+}
+
+.fa-linkedin {
+  color: #006192;
+}
+
+/* COMPETENCES  */
+.competences {
+  position: relative;
+}
+
+.competences__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.fa-html5 {
+  color: #f06529;
+}
+
+.fa-css3-alt {
+  color: #2565ae;
+}
+
+.fa-js-square {
+  color: #fdc72e;
+}
+
+.fa-sass {
+  color: #cd6799;
+}
+
+.softskills__container {
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.softskills__icon {
   color: var(--clr-accent);
 }

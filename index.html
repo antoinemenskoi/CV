@@ -68,63 +68,71 @@
             </nav>
         </header>
 
-        <main class="container">
+        <main class="l-main bd-container">
 
             <!-- CV LEFT SIDE -->
             <div class="cv-left">
 
                 <!-- HOME -->
-                <section class="home">
+                <section class="home__container section bd-grid" id="home">
                     <div class="home__data">
                         <img src="img/devantoine-01.jpg" alt="" class="home__img">
-                        <h1 class="name">Antoine MENSKOÏ</h1>
-                        <h3 class="dev">Développeur Web</h3>
-                        <h3 class="rqth">RQTH</h3>
+
+                        <h1 class="home__title">Antoine <b>MENSKOÏ</b></h1>
+                        <h3 class="home__profession">Développeur Web</h3>
+                        <h3 class="home__rqth">RQTH</h3>
+
+                        <div>
+                            <a download "" href="pdf/CV.pdf" class="home__button">Download</a>
+                        </div>
                     </div>
                 </section>
 
                 <!-- CONTACT -->
-                <section class="contact grid">
-                    <a href="" class="social__link">
-                        <i class="fas fa-phone-square-alt"></i>06-49-99-75-37
-                    </a>
-                    <a href="" class="social__link">
-                        <i class="fas fa-envelope-square"></i>menskoi.antoine@outlook.com
-                    </a>
-                    <a href="https://www.linkedin.com/in/antoinemenskoi/" class="social__link">
-                        <i class="fab fa-linkedin"></i>@antoinemenskoi
-                    </a>
+                <section class="contact section">
+                    <div class="contact__container bd-grid">
+                        <a href="" class="contact__link">
+                            <i class="fas fa-phone-square-alt contact__icon"></i>06-49-99-75-37
+                        </a>
+                        <a href="" class="contact__link">
+                            <i class="fas fa-envelope-square contact__icon"></i>menskoi.antoine@outlook.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/antoinemenskoi/" target="_blank" class="contact__link">
+                            <i class="fab fa-linkedin contact__icon"></i>@antoinemenskoi
+                        </a>
+                    </div>
                 </section>
 
                 <!-- COMPETENCES & LANGUES -->
-                <section class="langue">
-                    <h2 class="langues">Langues</h2>
+                <section class="langues" id="langues">
+                    <h2 class="section-title">Langues</h2>
                     <p>Anglais C1, IELTS 7,5/9</p>
                         <p>Suédois scolaire</p>
                 </section>
 
-                <section class="competence">
-                    <h2 class="competence"></h2>
-                    <div>
-                    <i class="fab fa-html5"></i>HTML
-                    <i class="fab fa-css3-alt"></i>CSS
-                    <i class="fab fa-js-square"></i>JavaScript
-                    <i class="fab fa-sass"></i>SASS
+                <section class="competences section" id="competences">
+                    <h2 class="section-title">Compétences</h2>
+
+                    <div class="competences__container bd-grid">
+                        <div><i class="fab fa-html5"></i>HTML</div>
+                        <div><i class="fab fa-css3-alt"></i>CSS</div>
+                        <div><i class="fab fa-js-square"></i>JavaScript</div>
+                        <div><i class="fab fa-sass"></i>JavaScript</div>
                     </div>
 
-                    <div class="softskills">
-                        <i class="fas fa-users"></i>Méthode Agile
-                        <i class="fas fa-graduation-cap"></i>Autodidacte
-                        <i class="fas fa-briefcase"></i>Autonome et Rigoureux
-                        <i class="fas fa-chart-line"></i>Capacité Analythique
+                    <div class="softskills__container bd-grid">
+                        <div><i class="fas fa-users softskills__icon"></i>Méthode Agile</div>
+                        <div><i class="fas fa-graduation-cap softskills__icon"></i>Autodidacte</div>
+                        <div><i class="fas fa-briefcase softskills__icon"></i>Autonome et Rigoureux</div>
+                        <div><i class="fas fa-chart-line softskills__icon"></i>Capacité Analythique</div>
                     </div>
                 </section>
             </div>
 
             <!-- CV RIGHT SIDE -->
             <div class="cv-right">
-                <section class="web-projects">
-                    <h1 class="title">Projets Web</h1>
+                <section class="web-projects" id="projects">
+                    <h1 class="section-title">Projets Web</h1>
                         <div class="">
                             <h2 class="title__sub">CV</h2>
                             <h3 class="url"><a href="https://antoinemenskoi.github.io/CV/">Github Page<a></h3>
@@ -142,7 +150,8 @@
                         </div>
                     
                 </section>
-                <section class="formations">
+                <section class="formations" id="formations">
+                    <h2 class="section-title">Formations</h2>
                     <div class="">
                         <h2 class="title__sub">FORMATION SIMPLON MS DÉVELOPPEUR FRONT END</h2>
                         <h3 class="url"><a href="">Développement en cours<a></h3>
@@ -160,7 +169,8 @@
                 </section>
 
                 <!-- EXPERIENCE -->
-                <section class="experience">
+                <section class="experience" id="experience">
+                    <h2 class="section-title">Expérience</h2>
                     <div class="">
                         <h2 class="title__sub">QUALIMETRIE</h2>
                         <h3 class="url">Assistant Gestion Projet Web | Avril 2019 - Décembre 2019</h3>
@@ -175,8 +185,8 @@
                 </section>
 
                 <!-- LOISIRS -->
-                <section class="loisirs">
-                    <h2 class="loisir">Loisirs</h2>
+                <section class="loisirs" id="loisirs">
+                    <h2 class="section-title">Loisirs</h2>
                     <i class="fab fa-d-and-d"></i>Dungeons & Dragons
                     <i class="fas fa-book"></i>Écriture, Lecture
                     <i class="fas fa-atom"></i>Science
