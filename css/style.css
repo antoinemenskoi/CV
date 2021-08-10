@@ -6,6 +6,7 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #16e0bd;
+  --clr-gray: #807e75;
 
   /* Font & typography */
   --ff-primary: "Source Sans Pro", sans-serif;
@@ -270,6 +271,8 @@ img {
   color: #006192;
 }
 
+/* LANGUES */
+
 /* COMPETENCES  */
 .competences {
   position: relative;
@@ -279,6 +282,10 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+
+.competences__icon {
+  margin-right: 0.25rem;
 }
 
 .fa-html5 {
@@ -304,4 +311,27 @@ img {
 
 .softskills__icon {
   color: var(--clr-accent);
+  margin-right: 0.25rem;
+}
+
+/* RIGHT SIDE  */
+.cv-right__bloc {
+  margin-top: 1rem;
+}
+
+.section-title__sub {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+}
+
+.projets__info {
+  font-size: var(--fs-small);
+}
+
+/* PROJETS WEB  */
+
+.url {
+  color: var(--clr-gray);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-body);
 }
