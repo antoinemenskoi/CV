@@ -235,7 +235,7 @@ img {
 
 .home__img {
   width: 120px;
-  height: auto;
+  height: 180px;
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
