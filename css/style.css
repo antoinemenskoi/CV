@@ -110,7 +110,7 @@ img {
   margin-top: var(--mb-3);
 }
 
-/*========== LAYOUT ==========*/
+/* LAYOUT */
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
